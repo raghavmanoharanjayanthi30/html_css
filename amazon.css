@@ -1,0 +1,169 @@
+header {
+    background-color: #010f06;
+    height: 70px;
+    margin: 0px;
+}
+
+body{
+    background-color: rgb(239, 233, 225);
+}
+
+#icons{
+    float: left;
+}
+
+#images{
+    margin-left: 80%;
+    margin-top: 0%
+}
+
+.boxContainer{
+    float: left;
+    margin-left: 5%;
+    margin-top: 0.5%;
+    width: 100px;
+}
+
+.elementsContainer{
+    height: 30px;
+    width: 300px;
+    font-size: 10px;
+    border-radius: 3px;
+    position: relative;
+}
+
+.dropdown{
+    height:60px;
+    width: 50%;
+    /* border: 2px solid white; */
+    margin-left: 45%;
+    margin-top: 0.9%;
+    font-size: large;
+    position: absolute;
+    margin-bottom: 2%;
+}
+
+.bC{
+    margin-left: 65%;
+    margin-top: 0%;
+}
+
+#images{
+    float: right;
+}
+
+.tab{
+    margin-top: 0.5%;
+}
+
+.tablinks{
+    margin-left: 0.7%;
+    background-color: white;
+    border: 0.2px solid black;
+}
+
+.link{
+    margin-top: 0.5%;
+    text-align: right;
+    background-color: rgb(237, 198, 131);
+}
+
+.midImages{
+    font-style: oblique;
+    margin-left: 1%;
+    margin-right: 1%;
+    align-items: center;
+}
+
+#texts{
+    font-size: 10px;
+    margin-left: 8%;
+    margin-top:1%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.subContainer{
+    float: left;
+    margin-bottom: 1%;
+}
+
+.third{
+    background-size: cover;
+}
+
+footer{
+    background-color: rgb(72, 77, 72);
+    height: 110px;
+}
+
+.footer1{
+    float:left;
+    color: white;
+    margin-left: 1%;
+    width: 24%;
+    line-height: 0px;
+}
+
+.hello{
+    text-align: center;
+    animation: mixed 10s;
+    float: left;
+    font-size: 20px;
+    font-style: italic;
+    text-align: center;
+    margin-left: 2%;
+    color: black;
+}
+
+@keyframes mixed{
+    0%{
+        margin-left: 3%;
+        font-size: 13px;
+    }
+    12.5%{
+        rotate: 45deg;
+        margin-left: 6%;
+        font-size: 17px;
+    }
+    25%{
+        rotate: 90deg;
+        margin-left: 9%;
+        font-size: 21px;
+    }
+    37.5%{
+        rotate: 135deg;
+        margin-left: 12%;
+        font-size: 21px;
+    }
+    50%{
+        rotate: 180deg;
+        margin-left: 15%;
+        font-size: 21px;
+    }
+    62.5%{
+        rotate: 225deg;
+        margin-left: 12%;
+        font-size: 21px;
+    }
+    75%{
+        rotate: 270deg;
+        margin-left: 9%;
+        font-size: 21px;
+    }
+    87.5%{
+        rotate: 315deg;
+        margin-left: 6%;
+        font-size: 17px;
+    }
+    100%{
+        rotate: 360deg;
+        margin-left: 3%;
+        font-size: 20px;
+    }
+ }
+
+ 
+
+
+
+
